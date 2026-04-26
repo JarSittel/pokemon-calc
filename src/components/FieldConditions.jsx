@@ -86,8 +86,8 @@ export default function FieldConditions({ field, onChange }) {
     <div className="bg-gray-800 rounded-xl border border-gray-700 px-4 py-3 flex flex-col gap-2">
 
       {/* Row 1: dropdowns + target count */}
-      <div className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5">
             <span className="text-xs text-gray-400 shrink-0">Weather</span>
             <select

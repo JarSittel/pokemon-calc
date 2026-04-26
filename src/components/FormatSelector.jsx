@@ -13,7 +13,7 @@ export default function FormatSelector({ formatId, onChange }) {
 
   return (
     <div className="flex items-center gap-3 shrink-0">
-      <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider whitespace-nowrap">
+      <span className="hidden sm:inline text-xs font-semibold text-gray-500 uppercase tracking-wider whitespace-nowrap">
         Format
       </span>
       <div className="flex gap-1.5">
