@@ -109,7 +109,7 @@ export default function FieldConditions({ field, onChange }) {
             </select>
           </div>
         </div>
-        <div className="flex gap-1">
+        <div className="flex gap-1 w-full sm:w-auto">
           {[
             { n: 1, label: 'One Target' },
             { n: 2, label: 'Two Targets' },
@@ -117,7 +117,7 @@ export default function FieldConditions({ field, onChange }) {
             <button
               key={n}
               onClick={() => update({ targetCount: n })}
-              className={`text-xs px-2 py-0.5 rounded border font-medium transition-colors ${
+              className={`flex-1 sm:flex-none text-xs px-2 py-0.5 rounded border font-medium transition-colors text-center ${
                 field.targetCount === n
                   ? 'bg-violet-700 border-violet-500 text-white'
                   : 'border-gray-600 text-gray-400 hover:border-gray-500 hover:text-gray-300'
